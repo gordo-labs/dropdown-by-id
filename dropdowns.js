@@ -15,7 +15,6 @@ function dropDown(idLauncher, idDropdown) {
 function dropDownTouch(idLauncher, idDropdown) {
   var dropDown = document.getElementById(idDropdown);
   var launcher = document.getElementById(idLauncher);
-  var dropclass = dropDown.className
   launcher.onclick = function () {
     if (dropDown.style.display === "none") {
       dropDown.style.display = "block";
