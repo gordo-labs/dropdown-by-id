@@ -26,3 +26,8 @@ function dropDownTouch(idLauncher, idDropdown) {
       dropDown.style.display = "none";
   }
 }
+
+window.onload = function() {
+  dropDown('launcher', 'dropdown');
+  dropDownTouch('launcher', 'dropdown');
+};
